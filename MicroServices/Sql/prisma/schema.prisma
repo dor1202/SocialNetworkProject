@@ -1,0 +1,132 @@
+// This is your Prisma schema file,
+// learn more about it in the docs: https://pris.ly/d/prisma-schema
+
+datasource db {
+  provider = "mysql"
+  url      = env("DATABASE_URL")
+  // url      = env("DATABASE_URL_TESTING")
+}
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+model User {
+  Id            Int             @id @default(autoincrement())
+  UserName      String
+  Password      String?
+  Email         String?
+  FirstName     String?
+  LastName      String?
+  FriendList    Friend[]
+  Avatar        String          @db.LongText
+  JoinTimeStamp DateTime        @default(now())
+  PhoneNumber   String?
+  BirthDay      DateTime?
+  Comments      Comment[]
+  Tags          TagedUser[]
+  Address       String?
+  Groups        GroupToUser[]
+  Platform      String?
+  Likes         Likes[]
+  Role          Role            @default(ADMIN)
+  Notifications Notification[]
+  PostToElastic PostToElastic[]
+
+  @@unique([Email])
+}
+
+model Notification {
+  Id               Int              @id @default(autoincrement())
+  UserId           Int
+  User             User?            @relation(fields: [UserId], references: [Id])
+  ToId             Int
+  Text             String?
+  TimeStamp        DateTime         @default(now())
+  NotificationType NotificationType
+}
+
+model Friend {
+  Id        Int     @id @default(autoincrement())
+  UserId    Int
+  User      User    @relation(fields: [UserId], references: [Id])
+  FriendId  Int
+  IsBlocked Boolean
+}
+
+model GroupToUser {
+  Id      Int    @id @default(autoincrement())
+  User    User?  @relation(fields: [UserId], references: [Id])
+  UserId  Int?
+  Group   Group? @relation(fields: [GroupId], references: [Id])
+  GroupId Int?
+}
+
+model Group {
+  Id        Int           @id @default(autoincrement())
+  GroupName String?
+  Users     GroupToUser[]
+}
+
+model TagedUser {
+  Id     Int  @id @default(autoincrement())
+  UserId Int
+  User   User @relation(fields: [UserId], references: [Id])
+  PostId String?
+}
+
+model Comment {
+  Id        Int      @id @default(autoincrement())
+  PostId    String?
+  Text      String?
+  UserId    Int
+  User      User     @relation(fields: [UserId], references: [Id])
+  TimeStamp DateTime @default(now())
+}
+
+model Likes {
+  Id     Int   @id @default(autoincrement())
+  PostId String?
+  User   User? @relation(fields: [UserId], references: [Id])
+  UserId Int?
+}
+
+model TagToPost {
+  Id     Int   @id @default(autoincrement())
+  PostId String?
+  Tags   Tags? @relation(fields: [TagsId], references: [Id])
+  TagsId Int?
+}
+
+model PostToElastic {
+  Id       Int     @id @default(autoincrement())
+  User     User?   @relation(fields: [UserId], references: [Id])
+  UserId   Int?
+  PostId   String?
+  IsPublic Boolean
+}
+
+model Tags {
+  Id         Int         @id @default(autoincrement())
+  Text       String
+  TagsToPost TagToPost[]
+
+
+  @@unique([Text])
+}
+
+enum Role {
+
+  USER
+
+  ADMIN
+
+}
+
+enum NotificationType {
+
+  NOTIFY
+
+  FEEDBACK
+
+}

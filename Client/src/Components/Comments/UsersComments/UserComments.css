@@ -1,0 +1,80 @@
+.scrollable-comments{
+    overflow: scroll;
+}
+
+.map-comment-feed{
+    height: 15vh;
+}
+
+.noraml-comment-feed{
+    height: 45vh;
+}
+
+.commentTextArea textarea{
+    background-color: white !important;
+    height: 8vh !important;
+    min-height: 0px !important;
+    max-height: 1000px !important;
+}
+
+.commentTextArea__highlighter{
+    height: 2vh;
+}
+
+.addCommentButton{
+    margin-top: 8vh !important;
+}
+.commentTextArea__suggestions{
+    background-color: #6707cf !important;
+    border-radius: 30%;
+    border: none;
+}
+
+.commentTextArea__suggestions ul li span{
+    font-size: 0.8vw !important;
+}
+
+.commentTextArea__suggestions ul li{
+    text-align: center;
+    border-bottom: 1px solid black;
+    color: black;
+    padding: 0.5vw;
+}
+
+.commentTextArea__suggestions ul li:last-child{
+    text-align: center;
+    border-bottom: none;
+    color: black;
+}
+
+.commentTextArea__suggestions ul :hover{
+    background-color: #5107a0 !important;
+}
+
+.commentTextArea__suggestions ul :active{
+    background-color: #440983 !important;
+}
+
+.commentTextArea__suggestions ul :active:last-child{
+    background-color: #440983 !important;
+    border-bottom-right-radius: 60%;
+    border-bottom-left-radius: 60%;
+}
+
+.commentTextArea__suggestions ul :active:first-child{
+    background-color: #440983 !important;
+    border-top-right-radius: 60%;
+    border-top-left-radius: 60%;
+}
+
+.commentTextArea__suggestions ul :hover:last-child{
+    background-color: #5107a0 !important;
+    border-bottom-right-radius: 60%;
+    border-bottom-left-radius: 60%;
+}
+
+.commentTextArea__suggestions ul :hover:first-child{
+    background-color: #5107a0 !important;
+    border-top-right-radius: 60%;
+    border-top-left-radius: 60%;
+}

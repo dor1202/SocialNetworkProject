@@ -1,0 +1,10 @@
+.customMicBtn{
+    border-radius: 50% !important;
+    width: 3vw;
+    height: 6vh;
+}
+
+.customMicBtn i.icon{
+    height: 1vh !important;
+    width: 1vw !important;
+}

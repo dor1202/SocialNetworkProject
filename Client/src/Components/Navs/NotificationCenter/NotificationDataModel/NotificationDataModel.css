@@ -1,0 +1,35 @@
+.customMenuItem{
+    text-align: left !important;
+}
+
+.customLabel{
+    left: 77% !important;
+    top: 10% !important;
+}
+
+.userNameTag{
+    width: 5vw !important;
+    height: 3vh !important;
+    font-size: 0.9vw !important;
+}
+
+.timeStampTag{
+    width: 10vw !important;
+    height: 4vh !important;
+    font-size: 0.9vw !important;
+}
+
+.round{
+    margin-top: 1vw !important;
+    border-radius: 50% !important;
+    background-color: rgb(53, 53, 71) !important;
+    color: white !important;
+}
+
+.yes{
+    background-color: rgb(32, 145, 50) !important;
+}
+
+.no{
+    background-color: rgb(209, 25, 25) !important;
+}

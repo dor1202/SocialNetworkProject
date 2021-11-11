@@ -1,0 +1,39 @@
+{
+  "name": "nodejsserver",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "postinstall": "link-module-alias",
+    "test": "jest --watchAll",
+    "test:debug": "node --inspect-brk node_modules/.bin/jest --runInBand"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.23.0",
+    "bcrypt": "^5.0.1",
+    "cors": "^2.8.5",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "jest": "^27.1.0",
+    "jsonwebtoken": "^8.5.1",
+    "morgan": "^1.10.0",
+    "nodemailer": "^6.6.3",
+    "pug": "^3.0.2",
+    "rotating-file-stream": "^2.1.5",
+    "socket.io": "^4.2.0"
+  },
+  "devDependencies": {
+    "link-module-alias": "^1.2.0"
+  },
+  "_moduleAliases": {
+    "@root": ".",
+    "@routers": "./Routers",
+    "@functions": "./Functions",
+    "@sockets": "./Sockets",
+    "@services": "./Services",
+    "@middleware": "./Middleware"
+  }
+}

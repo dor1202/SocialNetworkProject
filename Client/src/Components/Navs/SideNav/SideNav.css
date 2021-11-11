@@ -1,0 +1,35 @@
+.sideNavBtn{
+    position: absolute;
+    left: 1%;
+    z-index: 999;
+    bottom: 2%;
+}
+
+.customSidebar{
+    visibility: inherit !important;
+}
+
+.ui.wide.left.sidebar{
+    width: 25vw !important;
+}
+
+.ui.thin.right.sidebar{
+    width: 10vw !important;
+}
+
+.customSidebar{
+    visibility: inherit !important;
+}
+
+.buttonDiv{
+    padding: 1vw;
+}
+
+.navButton{
+    display: block;
+    left: 50%;
+    position: relative;
+    width: 3vw !important;
+    height: 5vh !important;
+    font-size: 0.9vw !important;
+}

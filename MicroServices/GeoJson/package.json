@@ -1,0 +1,32 @@
+{
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "jest": "^27.1.0",
+    "mongoose": "^5.12.14",
+    "morgan": "^1.10.0",
+    "rotating-file-stream": "^2.1.5"
+  },
+  "name": "geojsonmicroservice",
+  "version": "1.0.0",
+  "main": "app.js",
+  "devDependencies": {
+    "link-module-alias": "^1.2.0"
+  },
+  "scripts": {
+    "postinstall": "link-module-alias",
+    "test": "jest --watchAll",
+    "test:debug": "node --inspect-brk node_modules/.bin/jest --runInBand"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "_moduleAliases": {
+    "@root": ".",
+    "@routers": "./Routers",
+    "@services": "./Services",
+    "@schema": "./Schema"
+  }
+}

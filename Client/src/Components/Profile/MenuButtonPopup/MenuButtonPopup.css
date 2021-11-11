@@ -1,0 +1,43 @@
+
+.avatar{
+    margin-right: .25em;
+    display: inline-block;
+    width: 2em;
+    height: 2em;
+    border-radius: 500rem;
+    filter: drop-shadow(0.5px 0.5px 0px black) 
+    drop-shadow(-0.5px 0.5px 0px black) 
+    drop-shadow(0.5px -0.5px 0px black) 
+    drop-shadow(-0.5px -0.5px 0px black);
+}
+
+.menu-popup{
+    position: absolute;
+    width: 1px;
+    height: 1px;
+}
+
+.popup-menu-button{
+    position: relative;
+    width: 2em;
+    height: 2em;
+    border-radius: 500rem;
+    border: none;
+}
+
+.popup-menu-button:active{
+    background-color: rgb(216, 213, 213);
+}
+
+.popup-menu-button-left{
+    bottom: 3.8vh;
+    left: 1.5vw;
+    background-color: #fff;
+    border: 2px double #e11919;
+    color: #e11919;
+    -webkit-text-stroke: 0.2px black;
+}
+
+.blockFriend{
+    color: red;
+}

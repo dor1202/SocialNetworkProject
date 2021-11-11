@@ -1,0 +1,23 @@
+.textGrid{
+    width: 102%;
+}
+
+#customPopup{
+    background: rgb(5,2,54);
+    background: linear-gradient(310deg, var(--first-background-color) 0%, var(--second-background-color) 33%, var(--third-background-color) 100%); 
+    width: 75vw;
+}
+
+#disableBack{
+    background: transparent;
+}
+
+.ui.dimmer{
+    background-color: rgba(0,0,0,.55) !important;
+}
+
+.backBtn{
+    height: 5vh !important;
+    width: 5vw !important;
+    font-size: 0.9vw !important;
+}

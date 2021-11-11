@@ -1,0 +1,15 @@
+.buttonBottom{
+    top: 12vh;
+    position: relative;
+}
+
+.postStatus{
+    padding: 1vw;
+}
+
+.postStatus::before{
+    padding: 0.5vw;
+    border-radius: 50%;
+    border: 1.5px dotted black;
+
+}

@@ -1,0 +1,18 @@
+.normalFeedElement{
+    margin-left: auto !important;
+    margin-right: auto !important;
+    width: 50vw;
+    height: 2vh;
+}
+
+.commentBtn{
+    width: 12vw !important;
+    height: 9vh !important;
+    font-size: 0.9vw !important;
+}
+
+.commentBtn i{
+    width: 1vw !important;
+    height: 1vh !important;
+    font-size: 0.9vw !important;
+}

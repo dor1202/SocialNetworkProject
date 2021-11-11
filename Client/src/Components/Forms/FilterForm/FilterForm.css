@@ -1,0 +1,15 @@
+.description {
+    width: 1vw;
+}
+
+.microphoneBtn{
+    height: 7vh !important;
+    width: 9vw !important;
+    font-size: 0.9vw !important;
+}
+
+.filterBtn{
+    height: 5vh !important;
+    width: 5vw !important;
+    font-size: 0.9vw !important;
+}

@@ -1,0 +1,7 @@
+.normalViewDiv{
+    width: 90vw;
+    height: 90vh;
+    margin-left: auto;
+    margin-right: auto;
+    overflow-y: scroll;
+}

@@ -1,0 +1,30 @@
+{
+  "name": "elasticexample",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "postinstall": "link-module-alias",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@elastic/elasticsearch": "^7.15.0",
+    "axios": "^0.24.0",
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "link-module-alias": "^1.2.0"
+  },
+  "_moduleAliases": {
+    "@root": ".",
+    "@routers": "./Routers",
+    "@functions": "./Functions",
+    "@services": "./Services",
+    "@models": "./Models"
+  }
+}

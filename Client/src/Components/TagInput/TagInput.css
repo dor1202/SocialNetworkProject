@@ -1,0 +1,24 @@
+.ReactTags__selected span.ReactTags__tag {
+    background: rgb(174, 176, 179);
+    color: black;
+    font-size: 12px;
+    display: inline-block;
+    padding: 5px;
+    margin: 0 5px;
+    border-radius: 10%;
+  }
+  .ReactTags__selected span.ReactTags__tag:first-child {
+    margin-left: 0px;
+  }
+  .ReactTags__selected a.ReactTags__remove {
+    color: #aaa;
+    margin-left: 5px;
+    cursor: pointer;
+  }
+  .ReactTags__selected button.ReactTags__remove {
+    color: black;
+    border-radius: 50%;
+    border: none;
+    margin-left: 5px;
+    cursor: pointer;
+  }

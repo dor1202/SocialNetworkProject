@@ -1,0 +1,12 @@
+.friends-scroll{
+    overflow: scroll;
+    height: 18vh;
+    width: 98vw;
+    margin-left: 1vw !important;
+}
+
+.pad{
+    margin-left: 2vw;
+    margin-bottom: 4vh;
+    padding-top: 2rem !important;
+}

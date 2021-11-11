@@ -1,0 +1,50 @@
+.customFacebookButtonStyle{
+    border-style: none;
+    padding: 0;
+    padding: calc(.34435vw + 3.38843px) calc(.34435vw + 8.38843px);
+    -webkit-appearance: button;
+    font-family: Helvetica,sans-serif;
+    font-weight: 700;
+    color: #fff;
+    cursor: pointer;
+    display: inline-block;
+    font-size: calc(.27548vw + 12.71074px);
+    text-decoration: none;
+    transition: background-color .3s,border-color .3s;
+    background-color: #4c69ba;
+    border: calc(.06887vw + .67769px) solid #4c69ba;
+}
+.customFacebookButtonStyle:hover{
+    filter: brightness(0.9);
+}
+
+.dropdownMail{
+    color: rgba(0,0,0,.6);
+    font-family: Lato,'Helvetica Neue',Arial,Helvetica,sans-serif;
+    text-transform: none;
+    text-shadow: none;
+    font-weight: 700;
+    line-height: 1em;
+
+    min-height: 1em;
+    outline: 0;
+    border: none;
+    background: #e0e1e2 none;
+    color: rgba(0,0,0,.6);
+    font-family: Lato,'Helvetica Neue',Arial,Helvetica,sans-serif;
+    margin: 0 .25em 0 0;
+    padding: .78571429em 1.5em .78571429em;
+    text-transform: none;
+    text-shadow: none;
+    font-weight: 700;
+    line-height: 1em;
+    font-style: normal;
+    text-decoration: none;
+    border-radius: .28571429rem;
+    box-shadow: 0 0 0 1px transparent inset,0 0 0 0 rgba(34,36,38,.15) inset;
+    user-select: none;
+}
+
+.dropdownMail>.search{
+    width: 90% !important;
+}

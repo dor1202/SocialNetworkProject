@@ -1,0 +1,38 @@
+{
+  "name": "nodejsserver",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "postinstall": "link-module-alias",
+    "test": "jest --watchAll",
+    "test:debug": "node --inspect-brk node_modules/.bin/jest --runInBand"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@prisma/client": "^3.0.1",
+    "axios": "^0.21.2",
+    "bcrypt": "^5.0.1",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "jquery": "^3.6.0",
+    "jsdom": "^17.0.0",
+    "jsonwebtoken": "^8.5.1",
+    "morgan": "^1.10.0",
+    "mssql": "^7.2.1",
+    "rotating-file-stream": "^2.1.5"
+  },
+  "devDependencies": {
+    "link-module-alias": "^1.2.0",
+    "prisma": "^3.0.2"
+  },
+  "_moduleAliases": {
+    "@root": ".",
+    "@routers": "./Routers",
+    "@functions": "./Functions",
+    "@services": "./Services",
+    "@models": "./Models"
+  }
+}
