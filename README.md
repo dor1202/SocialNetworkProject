@@ -48,73 +48,73 @@ See the section about [running tests](https://facebook.github.io/create-react-ap
 
 ## Images
 Login view
-![alt text](https://github.com/dor1202/SocialNetworkProject/blob/main/ScreenShots/ScreenShot1.png?raw=true)
+![alt text](https://github.com/dor1202/SocialNetworkProject/blob/main/ScreenShots/ScreenShot1.jpeg?raw=true)
 
 
 Reset password view
-![alt text](https://github.com/dor1202/SocialNetworkProject/blob/main/ScreenShots/ScreenShot2.png?raw=true)
+![alt text](https://github.com/dor1202/SocialNetworkProject/blob/main/ScreenShots/ScreenShot2.jpeg?raw=true)
 
 
 Sign up view
-![alt text](https://github.com/dor1202/SocialNetworkProject/blob/main/ScreenShots/ScreenShot3.png?raw=true)
+![alt text](https://github.com/dor1202/SocialNetworkProject/blob/main/ScreenShots/ScreenShot3.jpeg?raw=true)
 
 
 Invalid token view
-![alt text](https://github.com/dor1202/SocialNetworkProject/blob/main/ScreenShots/ScreenShot4.png?raw=true)
+![alt text](https://github.com/dor1202/SocialNetworkProject/blob/main/ScreenShots/ScreenShot4.jpeg?raw=true)
 
 
 Feed navigation bar view
-![alt text](https://github.com/dor1202/SocialNetworkProject/blob/main/ScreenShots/ScreenShot5.png?raw=true)
+![alt text](https://github.com/dor1202/SocialNetworkProject/blob/main/ScreenShots/ScreenShot5.jpeg?raw=true)
 
 
 Add post view
-![alt text](https://github.com/dor1202/SocialNetworkProject/blob/main/ScreenShots/ScreenShot6.png?raw=true)
+![alt text](https://github.com/dor1202/SocialNetworkProject/blob/main/ScreenShots/ScreenShot6.jpeg?raw=true)
 
 
 Filter feed view
-![alt text](https://github.com/dor1202/SocialNetworkProject/blob/main/ScreenShots/ScreenShot7.png?raw=true)
+![alt text](https://github.com/dor1202/SocialNetworkProject/blob/main/ScreenShots/ScreenShot7.jpeg?raw=true)
 
 
 Feed on map view
-![alt text](https://github.com/dor1202/SocialNetworkProject/blob/main/ScreenShots/ScreenShot8.png?raw=true)
+![alt text](https://github.com/dor1202/SocialNetworkProject/blob/main/ScreenShots/ScreenShot8.jpeg?raw=true)
 
 
 Post in map view
-![alt text](https://github.com/dor1202/SocialNetworkProject/blob/main/ScreenShots/ScreenShot9.png?raw=true)
+![alt text](https://github.com/dor1202/SocialNetworkProject/blob/main/ScreenShots/ScreenShot9.jpeg?raw=true)
 
 
 User tag suggestion view
-![alt text](https://github.com/dor1202/SocialNetworkProject/blob/main/ScreenShots/ScreenShot10.png?raw=true)
+![alt text](https://github.com/dor1202/SocialNetworkProject/blob/main/ScreenShots/ScreenShot10.jpeg?raw=true)
 
 
 Notification view
-![alt text](https://github.com/dor1202/SocialNetworkProject/blob/main/ScreenShots/ScreenShot11.png?raw=true)
+![alt text](https://github.com/dor1202/SocialNetworkProject/blob/main/ScreenShots/ScreenShot11.jpeg?raw=true)
 
 
 Feed in scroll view
-![alt text](https://github.com/dor1202/SocialNetworkProject/blob/main/ScreenShots/ScreenShot12.png?raw=true)
+![alt text](https://github.com/dor1202/SocialNetworkProject/blob/main/ScreenShots/ScreenShot12.jpeg?raw=true)
 
 
 Comments in scroll view
-![alt text](https://github.com/dor1202/SocialNetworkProject/blob/main/ScreenShots/ScreenShot13.png?raw=true)
+![alt text](https://github.com/dor1202/SocialNetworkProject/blob/main/ScreenShots/ScreenShot13.jpeg?raw=true)
 
 
 Add friends view
-![alt text](https://github.com/dor1202/SocialNetworkProject/blob/main/ScreenShots/ScreenShot15.png?raw=true)
+![alt text](https://github.com/dor1202/SocialNetworkProject/blob/main/ScreenShots/ScreenShot15.jpeg?raw=true)
 
 
 Create a new group view
-![alt text](https://github.com/dor1202/SocialNetworkProject/blob/main/ScreenShots/ScreenShot16.png?raw=true)
+![alt text](https://github.com/dor1202/SocialNetworkProject/blob/main/ScreenShots/ScreenShot16.jpeg?raw=true)
 
 
 Profile navigation bar view
-![alt text](https://github.com/dor1202/SocialNetworkProject/blob/main/ScreenShots/ScreenShot17.png?raw=true)
+![alt text](https://github.com/dor1202/SocialNetworkProject/blob/main/ScreenShots/ScreenShot17.jpeg?raw=true)
 
 
 Other user profile view
-![alt text](https://github.com/dor1202/SocialNetworkProject/blob/main/ScreenShots/ScreenShot18.png?raw=true)
+![alt text](https://github.com/dor1202/SocialNetworkProject/blob/main/ScreenShots/ScreenShot18.jpeg?raw=true)
 
 
 Error view
-![alt text](https://github.com/dor1202/SocialNetworkProject/blob/main/ScreenShots/ScreenShot19.png?raw=true)
+![alt text](https://github.com/dor1202/SocialNetworkProject/blob/main/ScreenShots/ScreenShot19.jpeg?raw=true)
 
