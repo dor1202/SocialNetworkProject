@@ -47,5 +47,74 @@ See the section about [running tests](https://facebook.github.io/create-react-ap
 * [@elastic/elasticsearch](https://www.npmjs.com/@elastic/elasticsearch) - Elasticsearch Node.js client
 
 ## Images
-Starting view
+Login view
 ![alt text](https://github.com/dor1202/SocialNetworkProject/blob/main/ScreenShots/ScreenShot1.png?raw=true)
+
+
+Reset password view
+![alt text](https://github.com/dor1202/SocialNetworkProject/blob/main/ScreenShots/ScreenShot2.png?raw=true)
+
+
+Sign up view
+![alt text](https://github.com/dor1202/SocialNetworkProject/blob/main/ScreenShots/ScreenShot3.png?raw=true)
+
+
+Invalid token view
+![alt text](https://github.com/dor1202/SocialNetworkProject/blob/main/ScreenShots/ScreenShot4.png?raw=true)
+
+
+Feed navigation bar view
+![alt text](https://github.com/dor1202/SocialNetworkProject/blob/main/ScreenShots/ScreenShot5.png?raw=true)
+
+
+Add post view
+![alt text](https://github.com/dor1202/SocialNetworkProject/blob/main/ScreenShots/ScreenShot6.png?raw=true)
+
+
+Filter feed view
+![alt text](https://github.com/dor1202/SocialNetworkProject/blob/main/ScreenShots/ScreenShot7.png?raw=true)
+
+
+Feed on map view
+![alt text](https://github.com/dor1202/SocialNetworkProject/blob/main/ScreenShots/ScreenShot8.png?raw=true)
+
+
+Post in map view
+![alt text](https://github.com/dor1202/SocialNetworkProject/blob/main/ScreenShots/ScreenShot9.png?raw=true)
+
+
+User tag suggestion view
+![alt text](https://github.com/dor1202/SocialNetworkProject/blob/main/ScreenShots/ScreenShot10.png?raw=true)
+
+
+Notification view
+![alt text](https://github.com/dor1202/SocialNetworkProject/blob/main/ScreenShots/ScreenShot11.png?raw=true)
+
+
+Feed in scroll view
+![alt text](https://github.com/dor1202/SocialNetworkProject/blob/main/ScreenShots/ScreenShot12.png?raw=true)
+
+
+Comments in scroll view
+![alt text](https://github.com/dor1202/SocialNetworkProject/blob/main/ScreenShots/ScreenShot13.png?raw=true)
+
+
+Add friends view
+![alt text](https://github.com/dor1202/SocialNetworkProject/blob/main/ScreenShots/ScreenShot15.png?raw=true)
+
+
+Create a new group view
+![alt text](https://github.com/dor1202/SocialNetworkProject/blob/main/ScreenShots/ScreenShot16.png?raw=true)
+
+
+Profile navigation bar view
+![alt text](https://github.com/dor1202/SocialNetworkProject/blob/main/ScreenShots/ScreenShot17.png?raw=true)
+
+
+Other user profile view
+![alt text](https://github.com/dor1202/SocialNetworkProject/blob/main/ScreenShots/ScreenShot18.png?raw=true)
+
+
+Error view
+![alt text](https://github.com/dor1202/SocialNetworkProject/blob/main/ScreenShots/ScreenShot19.png?raw=true)
+
